@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-primary: #f0f;
+  --neon-secondary: #0ff;
+}
+
+body {
+  background: linear-gradient(135deg, #13151a 0%, #090a0f 100%);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.neon-border {
+  box-shadow: 0 0 10px var(--neon-primary),
+              0 0 20px var(--neon-secondary);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px var(--neon-primary),
+               0 0 20px var(--neon-secondary);
+}
+
+.orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
